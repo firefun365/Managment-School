@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Managment System</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="jquery-3.4.1.min.js"></script> -->
+</head>
+<body>
+    <header>
+        <div id="divBlack"></div>
+        <h1>System Managment</h1>
+        <p id="hello">Hello, </p> <p id="dynamicName"></p>
+    </header>
+
+    <main>
+        <h2>Choose Category : </h2>
+        <select name="" id="options">
+            <option value="null">----</option>
+            <option value="class">Class</option>
+            <option value="teachers">Teachers</option>
+            <option value="students">Students</option>
+        </select>
+
+        <hr/>
+        
+        <!--Dynamic Table Will Be Here-->
+        <div id="studentDiv">
+
+        </div>
+
+        <div id="teacherDiv">
+
+        </div>
+
+        <div id="classDiv">
+        </div>
+
+        <p id="sort1">Sort By</p>
+        <select name="" id="sort">
+            <option value="----">----</option>
+            <option value="grades">Grades</option>
+        </select>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
